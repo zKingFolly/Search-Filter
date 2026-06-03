@@ -47,11 +47,16 @@ input::placeholder {
   background-color: #6de2c5;
   width: 85%;
 }
+#add-box {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
 #add {
   background-color: #6de2c5;
   color: #1e725d;
   height: 32px;
-  width: 14%;
+  width: 15%;
   font-size: medium;
   border-radius: 5px;
   border: none;
