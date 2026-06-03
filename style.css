@@ -20,7 +20,7 @@ main {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
   justify-self: center;
 }
 #search {
@@ -47,7 +47,7 @@ input::placeholder {
   background-color: #6de2c5;
   width: 85%;
 }
-button {
+#add {
   background-color: #6de2c5;
   color: #1e725d;
   height: 32px;
@@ -60,13 +60,23 @@ button {
 
 #item-box {
   color: #1e725d;
-  height: 30rem;
+  height: fit-content;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
   background-color: #6de2c5;
   border-radius: 12px;
   font-size: 38px;
-  padding: 4px;
+  padding: 8px 30px;
   list-style-type: none;
+}
+li > button {
+  background-color: #12d3ad;
+  color: #1e725d;
+  border-radius: 3px;
+  border: none;
+  font-size: 22px;
+  padding: 9.7px;
+  float: right;
+  font-family: "Gill sans";
 }
